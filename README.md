@@ -38,6 +38,8 @@ Data was broken to multiple .csvs based on logical grouping of data. Our task wa
 
 The goal is to create appropriate dataframes of meaningful data that aligns well with the table schema we decided to create. This required us to remove unnecessary columns, merge columns from different .csv files into logically and more acutely grouped data. Furthermore, in parallel, we decided on the best schema to proceed with so the transformation can be meaningful. 
 
+The team decided on certain columns to extract out of the initial large dataset. We merged the multiple dataframes into a singular master dataframe to load necessary data.
+
 ##### Database Schema Creation:
 
 Understanding how best to group data into logically related data tables. The goal was to provide meaning to grouping and breaking down data, along with maintaining referential integrity amongst all of our tables. This schema development will help define our transformational methods within Pandas that will help proper data loads without incurring any issues.
@@ -48,6 +50,6 @@ Once Data Transformation is complete, final step was to load all of the data int
 
 
 
-##### Data Test & Validation:**
+##### Data Test & Validation:
 
 We added a step to ensure data integrity was present. Proper testing and validation ensured that we didn’t negatively transform data into the database. We picked certain schools (spot check) and reviewed the final data matched data found in the csv files. 
