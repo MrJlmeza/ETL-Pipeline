@@ -2,7 +2,7 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE "Profile" (
+CREATE TABLE "profile" (
     "UNITID" INT   NOT NULL,
     "OPEID" INT   NOT NULL,
     "INSTNM" VARCHAR(125)   NOT NULL,
@@ -16,7 +16,7 @@ CREATE TABLE "Profile" (
      )
 );
 
-CREATE TABLE "Geography" (
+CREATE TABLE "geography" (
     "UNITID" INT   NOT NULL,
     "CITY" VARCHAR(100)   NOT NULL,
     "STABBR" VARCHAR(5)   NOT NULL,
@@ -28,7 +28,7 @@ CREATE TABLE "Geography" (
      )
 );
 
-CREATE TABLE "Enrollment" (
+CREATE TABLE "enrollment" (
     "UNITID" INT   NOT NULL,
     "ADM_RATE" FLOAT   NOT NULL,
     "UGDS" INT   NOT NULL,
@@ -38,7 +38,7 @@ CREATE TABLE "Enrollment" (
      )
 );
 
-CREATE TABLE "Need" (
+CREATE TABLE "need" (
     "UNITID" INT   NOT NULL,
     "FAMINC" FLOAT   NOT NULL,
     "MD_FAMINC" FLOAT   NOT NULL,
@@ -48,7 +48,7 @@ CREATE TABLE "Need" (
      )
 );
 
-CREATE TABLE "Costs" (
+CREATE TABLE "costs" (
     "UNITID" INT   NOT NULL,
     "TUITFTE" FLOAT   NOT NULL,
     "INEXPFTE" FLOAT   NOT NULL,
@@ -62,7 +62,7 @@ CREATE TABLE "Costs" (
      )
 );
 
-CREATE TABLE "Outcomes" (
+CREATE TABLE "outcomes" (
     "UNITID" INT   NOT NULL,
     "POVERTY_RATE" FLOAT   NOT NULL,
     "UNEMP_RATE" FLOAT   NOT NULL,
@@ -71,7 +71,7 @@ CREATE TABLE "Outcomes" (
      )
 );
 
-CREATE TABLE "Demographics" (
+CREATE TABLE "demographics" (
     "UNITID" INT   NOT NULL,
     "PCT_WHITE" FLOAT   NOT NULL,
     "PCT_BLACK" FLOAT   NOT NULL,
@@ -84,21 +84,21 @@ CREATE TABLE "Demographics" (
      )
 );
 
-ALTER TABLE "Geography" ADD CONSTRAINT "fk_Geography_UNITID" FOREIGN KEY("UNITID")
-REFERENCES "Profile" ("UNITID");
+ALTER TABLE "geography" ADD CONSTRAINT "fk_Geography_UNITID" FOREIGN KEY("UNITID")
+REFERENCES "profile" ("UNITID");
 
-ALTER TABLE "Enrollment" ADD CONSTRAINT "fk_Enrollment_UNITID" FOREIGN KEY("UNITID")
-REFERENCES "Profile" ("UNITID");
+ALTER TABLE "enrollment" ADD CONSTRAINT "fk_Enrollment_UNITID" FOREIGN KEY("UNITID")
+REFERENCES "profile" ("UNITID");
 
-ALTER TABLE "Need" ADD CONSTRAINT "fk_Need_UNITID" FOREIGN KEY("UNITID")
-REFERENCES "Profile" ("UNITID");
+ALTER TABLE "need" ADD CONSTRAINT "fk_Need_UNITID" FOREIGN KEY("UNITID")
+REFERENCES "profile" ("UNITID");
 
-ALTER TABLE "Costs" ADD CONSTRAINT "fk_Costs_UNITID" FOREIGN KEY("UNITID")
-REFERENCES "Profile" ("UNITID");
+ALTER TABLE "costs" ADD CONSTRAINT "fk_Costs_UNITID" FOREIGN KEY("UNITID")
+REFERENCES "profile" ("UNITID");
 
-ALTER TABLE "Outcomes" ADD CONSTRAINT "fk_Outcomes_UNITID" FOREIGN KEY("UNITID")
-REFERENCES "Profile" ("UNITID");
+ALTER TABLE "outcomes" ADD CONSTRAINT "fk_Outcomes_UNITID" FOREIGN KEY("UNITID")
+REFERENCES "profile" ("UNITID");
 
-ALTER TABLE "Demographics" ADD CONSTRAINT "fk_Demographics_UNITID" FOREIGN KEY("UNITID")
-REFERENCES "Profile" ("UNITID");
+ALTER TABLE "demographics" ADD CONSTRAINT "fk_Demographics_UNITID" FOREIGN KEY("UNITID")
+REFERENCES "profile" ("UNITID");
 
