@@ -8,7 +8,7 @@
 
 
 
-![image-20210609200607371](C:\Users\tpatel\AppData\Roaming\Typora\typora-user-images\image-20210609200607371.png)
+![image-20210609200607371](C:\Users\tpatel\Desktop\BootcampWorkingDirectory\HomeworkWD\ETL-Project\images\image-20210609200607371.png)
 
 Github Repo:**https://github.com/MrJlmeza/ETL-Project
 **Data Definition:**College Scorecards make it easier for students to search for a college that is a good fit for them. They can use the College Scorecard to find out more about a college's affordability and value so they can make more informed decisions about which college to attend.
