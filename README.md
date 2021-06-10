@@ -53,3 +53,13 @@ Once Data Transformation is complete, final step was to load all of the data int
 ##### Data Test & Validation:
 
 We added a step to ensure data integrity was present. Proper testing and validation ensured that we didn’t negatively transform data into the database. We picked certain schools (spot check) and reviewed the final data matched data found in the csv files. 
+
+#### Technical Report:
+
+1) Download Repository
+
+2) Within the "Data" folder, download the appropriate .csv's needed to execute the project
+
+3) Create database named "etl_db" within postgresql
+
+4) Execute steps within the Jupyter Notebook "data_cleanup.ipynb"
