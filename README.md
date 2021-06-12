@@ -30,7 +30,7 @@ https://collegescorecard.ed.gov/https://collegescorecard.ed.gov/data/documentati
 
 **https://github.com/MrJlmeza/ETL-Project
 
-##### **Data Definition:
+##### Data Definition:
 
 College Scorecards make it easier for students to search for a college that is a good fit for them. They can use the College Scorecard to find out more about a college's affordability and value so they can make more informed decisions about which college to attend.
 Data was broken to multiple .csvs based on logical grouping of data. Our task was to go through the CSVs and identify data points to bring into our database. The files themselves have somewhere between 150+ to 200+ columns. Identifying which data to bring in is critical from an insights gathering perspective.
