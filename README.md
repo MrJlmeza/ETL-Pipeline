@@ -2,7 +2,8 @@
 
 ### **Project 2 - Extract, Transform, Load (ETL) Process**
 
-##### Group 5: Angela Leonard, Brian Havard, Vito Jacano, Joge Meza, Tanmay PatelSubmission Date: June 12th, 2021
+##### Group 5: Angela Leonard, Brian Havard, Vito Jacano, Joge Meza, Tanmay Patel
+##### Submission Date: June 12th, 2021
 
 
 
