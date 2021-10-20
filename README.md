@@ -1,8 +1,8 @@
-# ETL-Project
+# ETL-Pipeline
 
-### **Project 2 - Extract, Transform, Load (ETL) Process**
+###  Extract, Transform, Load (ETL) Process**
 
-##### Group 5: Angela Leonard, Brian Havard, Vito Jacano, Joge Meza, Tanmay Patel
+##### Team Members: Angela Leonard, Brian Havard, Vito Jacano, Joge Meza, Tanmay Patel
 ##### Submission Date: June 12th, 2021
 
 
